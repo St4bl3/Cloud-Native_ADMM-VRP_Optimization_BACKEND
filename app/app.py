@@ -29,9 +29,9 @@ logging.basicConfig(level=logging.DEBUG)  # Set to DEBUG for detailed logs
 logger = logging.getLogger("vrp-api")
 
 # Environment Variables
-SUPABASE_URL = "https://wqabbdjzrentixadsaff.supabase.co"
-SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndxYWJiZGp6cmVudGl4YWRzYWZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzE5MzA1MDksImV4cCI6MjA0NzUwNjUwOX0.K2rv84ukth3maDE0Zn7gLBae9qcHNnidcIKNZrCgRYk"
-ORS_API_KEY ='5b3ce3597851110001cf6248cea1a7cb28584eb093979bcf3280480a'
+SUPABASE_URL = "https://xxx.supabase.co"
+SUPABASE_ANON_KEY = "xxx"
+ORS_API_KEY ='yyy'
 
 # Validate Environment Variables
 if not SUPABASE_URL or not SUPABASE_ANON_KEY:
