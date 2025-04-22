@@ -10,7 +10,7 @@ import uvicorn
 import asyncio
 import httpx
 from typing import List, Dict
-import polyline  # For decoding poldyline strings
+import polyline  # For decoding polyline strings
 
 # Initialize FastAPI app
 app = FastAPI()
